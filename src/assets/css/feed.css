@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+ul {
+  padding-left: 0;
+}
+
 li {
   list-style-type: none;
   margin: 0;
@@ -27,6 +31,12 @@ li {
 
 #loadMore:hover {
   opacity: 0.75;
+}
+
+footer {
+  animation: none;
+  visibility: visible;
+  position: static;
 }
 
 @keyframes fadein {
