@@ -1,0 +1,37 @@
+.title {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  animation: fadein 2s;
+}
+
+#loadMore {
+  color: #f2f2f2;
+  font-family: "Play", sans-serif;
+  border: none;
+  outline: none;
+  font-size: 1.15rem;
+  background: transparent;
+  transition: 0.3s ease-in-out;
+}
+
+#loadMore:hover {
+  opacity: 0.75;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
