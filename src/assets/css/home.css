@@ -13,7 +13,7 @@
   font-size: 1.2rem;
   font-family: "Play", sans-serif;
   transition: 0.4s ease-in-out;
-  animation: fadein 3s;
+  animation: fadein 2.5s;
   display: none;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .fadeIn {
-  animation: fadein 3s;
+  animation: fadein 2.8s;
 }
 
 .glitch {

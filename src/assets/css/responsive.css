@@ -1,0 +1,17 @@
+@media only screen and (max-width: 425px) {
+  #hackIt {
+    font-size: 5.8rem;
+  }
+
+  #read {
+    font-size: 1rem;
+  }
+
+  #footer {
+    font-size: 0.65rem;
+  }
+
+  .header {
+    margin-left: 4rem;
+  }
+}

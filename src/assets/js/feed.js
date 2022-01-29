@@ -1,5 +1,6 @@
 import '../css/styles.css';
 import '../css/feed.css';
+import '../css/responsive.css';
 import '../img/s2i.png';
 
 const axios = require('axios').default;
@@ -35,7 +36,7 @@ async function displayArticle(data){
       <div class="container">
         <h5 class="my-1">${ data.title }</h5>
         <p>Link: <a href="${ data.url }">${ data.url }</a></p>
-        <p>Date: ${localTime}</p>
+        <p class="text-muted">Date: ${localTime}</p>
     </div>`; 
     article.after(document.createElement('hr'));
 }
